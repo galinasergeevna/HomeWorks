@@ -30,4 +30,19 @@ int number = Convert.ToInt32(Console.ReadLine());
 ThirdDigitNumber(number);
 */
 
+/*
+// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
+bool DayHolliday(int number)
+{
+    if(number == 6 || number == 7)
+       return true;
+    else
+       return false;
+}
+Console.Write("Enter the day of the week: ");
+int n = Convert.ToInt32(Console.ReadLine ());
+
+bool dayHolliday=DayHolliday(n);
+Console.WriteLine(dayHolliday);
+*/
